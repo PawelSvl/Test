@@ -39,18 +39,18 @@ body {
    margin: 0;
   padding: 0;
 
-/*    box-sizing: border-box;*/
+
    
 }
 .main-carousel {
     max-width: 100%; 
-/*    height: 500px;*/
+
     height: 100vh;
     margin: 0;
     padding: 0;
 }
 .carousel-inner .item .img-carousel {
-/*    height:500px;*/
+
     height: 100vh;
    padding-top: 50px;
       margin: 0;
@@ -63,7 +63,7 @@ body {
 .text-carousel {
     text-align: center;
   
-/*    height:500px;*/
+
     height: 100vh;
 }
 
