@@ -44,45 +44,42 @@ body {
     margin: 0;
     padding: 0;
 }
-.carousel-inner .item .img-carousel {
 
-    height: 100vh;
-      padding-top: 50px;   
-      margin: 0;
-   padding: 0;
-}
 
 
 /*--próbna karuzela--*/
 
-.text-carousel {
-    text-align: center;
-  
-
-    height: 100vh;
+ .text-carousel {
+     text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }
 
-.c {
+.box-carousel-img {
      margin-top: 50px;
      text-align: center;
-  
-
      height: 100vh; 
 }
 
 
-.carousel-caption-text {
+ .carousel-caption-text {
     text-align: center;
-    /* height: 100vh; */
    color: red;
    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
+} 
+.carousel-caption {
+    bottom: 20px;  
 }
-
+.row { 
+    margin: 0;
+    height: 100vh
+}
 h2 {
-    display: block;
     width: 100vh;
 }
 .carousel-control {
