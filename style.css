@@ -63,18 +63,28 @@ body {
 }
 
 .c {
-     margin-top: 50px; 
+     margin-top: 50px;
+     text-align: center;
+  
+
+     height: 100vh; 
 }
 
 
 .carousel-caption-text {
     text-align: center;
-   padding-bottom: 100px;
+    /* height: 100vh; */
    color: red;
-    
+   flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
+h2 {
+    display: block;
+    width: 100vh;
+}
 .carousel-control {
    
     width:0;
