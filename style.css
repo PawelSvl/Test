@@ -30,17 +30,12 @@ body {
     
    background:linear-gradient(to right,  rgba(0, 123, 255, 0.7) 0%, rgba(0, 123, 255, 0.7) 100%), url(img/chair-2584260_1280.jpg);
     border-radius: 0;
-/*    height: 500px;*/
+    height: 500px;
     height: 100vh;
      background-size: cover;
     background-position: center;
-   
-
    margin: 0;
-  padding: 0;
-
-
-   
+  padding-top: 0; 
 }
 .main-carousel {
     max-width: 100%; 
@@ -52,7 +47,7 @@ body {
 .carousel-inner .item .img-carousel {
 
     height: 100vh;
-   /* padding-top: 50px; */
+      padding-top: 50px;   
       margin: 0;
    padding: 0;
 }
@@ -68,13 +63,14 @@ body {
 }
 
 .c {
-    margin-top: 50px;
+     margin-top: 50px; 
 }
 
 
-.b {
+.carousel-caption-text {
     text-align: center;
    padding-bottom: 100px;
+   color: red;
     
 }
 
@@ -96,6 +92,9 @@ position: absolute;
     opacity: .5;
 }
 
+.carousel-control:hover {
+    color: #17D7A1;
+}
 
 
 
@@ -104,7 +103,6 @@ position: absolute;
 
 
 
-/*
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu li a {
         color: #007bff;
@@ -118,4 +116,4 @@ position: absolute;
         background-color: #17D7A1;
     }
 }
-*/
+
