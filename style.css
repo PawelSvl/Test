@@ -52,25 +52,27 @@ body {
  .text-carousel {
      text-align: center;
   height: 100vh;
-  display: flex;
+   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;  
 }
 
 .box-carousel-img {
      margin-top: 50px;
      text-align: center;
-     height: 100vh; 
+     height: 100vh;
+      
 }
-
+.carousel-caption img {
+   
+    height: 90%;
+}
 
  .carousel-caption-text {
     text-align: center;
+     margin-top: 30px; 
    color: #fff;
-   flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  
 } 
 .carousel-caption {
     bottom: 20px;  
@@ -79,31 +81,90 @@ body {
     margin: 0;
     height: 100vh
 }
-h2 {
-    width: 100vh;
+
+.carousel-caption-text h2 {
+    font-weight: bold;
+    
+    margin: 0 25px;
+    
+    
 }
-.carousel-control {
+.carousel-caption-text p {
+    
+    margin: 0 25px;
+    
+}
+/* .carousel-control {
    
-    width:0;
+     width:90px; 
 position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
-   margin: 25px;
-    font-size: 20px;
+    margin: 25px; 
+     font-size: 20px; 
     color: #fff;
-    text-align: center;
+     text-align: center; 
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
     background-color: rgba(0,0,0,0);
     filter: alpha(opacity=50);
     opacity: .5;
-}
+} */
 
 .carousel-control:hover {
     color: #17D7A1;
 }
+.buttons {
+    margin-top: 20px;
+}
+.btnn {
+    
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 0;
+    
+}
+.btn-b {
+    margin-top: 15px;
+}
 
 
+.btn-border-white {
+    padding: 10px 70px;
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: all .3s;
+    margin: 10px;
+}
+
+.btn-border-white:hover,
+.btn-border-white:focus {
+    text-decoration: none;
+    background-color: #fff;
+} 
+.btn-border-green {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #17D7A1;
+    border: 2px solid #17D7A1;
+    color: #fff;
+    transition: all .3s;
+}
+.btn-border-green:hover,
+.btn-border-green:focus {
+    text-decoration: none;
+    background-color: #fff;
+    border: 2px solid #fff;
+} 
+.fa {
+    margin: 0 10px;
+}
 
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu li a {
