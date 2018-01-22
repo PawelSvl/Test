@@ -94,9 +94,9 @@ body {
     margin: 0 25px;
     
 }
-/* .carousel-control {
+ .carousel-control {
    
-     width:90px; 
+     width:0px; 
 position: absolute;
     top: 0;
     bottom: 0;
@@ -109,7 +109,7 @@ position: absolute;
     background-color: rgba(0,0,0,0);
     filter: alpha(opacity=50);
     opacity: .5;
-} */
+} 
 
 .carousel-control:hover {
     color: #17D7A1;
